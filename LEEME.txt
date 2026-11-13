@@ -1,0 +1,25 @@
+VERSUS APP - archivos actualizados para GitHub / Vercel
+
+Qué contiene esta carpeta (todo lo que cambió):
+  index.html            app actualizada (agenda por horas, reservas 1-2 hs, fotos de perfil, sin Google)
+  support.js            runtime de la app (va al lado de index.html)
+  components/vs-icons.js  iconos
+  assets/people/        14 fotos de padel (m1-m7 hombres, w1-w7 mujeres)
+  assets/avatar1.jpg    reemplaza la imagen anterior
+  assets/torneo-partner1.jpg  reemplaza la imagen anterior
+  vercel.json
+
+IMPORTANTE: el resto de las imágenes (logo, iconos del menú, fondos, club1/club2, etc.)
+no se pueden leer desde acá. Copialas de tu export del proyecto: tomá la carpeta "assets"
+del export de Claude Design (Share > Export) y fusionala con la de esta carpeta
+(si pregunta por reemplazar avatar1.jpg y torneo-partner1.jpg, dejá las de esta carpeta).
+
+Estructura final en el repo:
+  index.html
+  support.js
+  vercel.json
+  components/vs-icons.js
+  assets/...            (las del export + people/ + las 2 reemplazadas)
+  admin.html            (la del export, no cambió)
+
+Vercel: importar el repo de GitHub, Framework "Other", sin build command, output directory = raíz.
